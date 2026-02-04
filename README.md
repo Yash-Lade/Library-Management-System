@@ -40,11 +40,8 @@ Represents a single book in the library.
 User
 Represents a library member.
 |-Attributes
-
 |-userId
-
 |-name
-
 |-List of issued book IDs
 
 Responsibilities
@@ -54,53 +51,40 @@ Responsibilities
 
 Library
 Acts as the central controller.
- |-Attributes
 
-Collection of books (unordered_map)
-Collection of users (unordered_map)
+Attributes
+- Collection of books (unordered_map)
+- Collection of users (unordered_map)
 
-Responsibilities
-
-Add books and users
-
-Issue and return books
-
-Enforce rules (availability, valid users, etc.)
 
 🛠️ Technologies & Tools
 
-Language: C++
-
-Concepts: OOP, STL
-
-Containers Used:
-
-unordered_map
-
-vector
-
-Compiler: GCC / G++
+- Language: C++
+- Concepts: OOP, STL
+- Containers Used: unordered_map, vector
+- Compiler: GCC / G++
 
 ▶️ How to Run
 
 Clone the repository:
-
+```
 git clone https://github.com/your-username/library-management-system-cpp.git
-
+```
 
 Navigate to the project directory:
-
+```
 cd library-management-system-cpp
-
+```
 
 Compile the program:
-
+```
 g++ main.cpp -o library
-
+```
 
 Run the program:
-
+```
 ./library
+```
 
 📌 Sample Menu
 ===== Library Management System =====
